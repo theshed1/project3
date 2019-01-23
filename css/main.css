@@ -100,7 +100,7 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url(/dist/img/chef250.jpg);
+  background: url(../img/chef250.jpg);
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
@@ -173,7 +173,7 @@ body {
 }
 
 body#bg-img {
-  background: url(/dist/img/Ainsley_Harriott.jpg);
+  background: url(../img/Ainsley_Harriott.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -242,6 +242,7 @@ main .icons a:hover {
   color: #eece1a;
   -webkit-transition: all 0.8s ease-out;
   transition: all 0.8s ease-out;
+  cursor: pointer;
 }
 
 main#home {
@@ -434,7 +435,7 @@ main#home h1 {
             transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url(/dist/img/chef150.jpg);
+    background: url(../img/chef150.jpg);
     width: 150px;
     height: 150px;
   }
